@@ -1,0 +1,109 @@
+@import url(./perfil.css);
+@import url(./page.css);
+@import url(./github.css);
+@import url(./repository.css);
+@import url(./projects.css);
+@import url(./search.css);
+@import url(./lista.css);
+
+/* Variaveis */
+:root{
+    --Link: #0587FF;
+    --Button: #FD8C73;
+    --gray: #DBDBDB;
+    --text-gray: #989898;
+    --ligth-gray: #f8f8f8;
+    --black: #000000;
+    --white:#ffffff;
+}
+
+/* Tablet */
+@media(max-width:1300px){
+    /* Page */
+    body{
+        display: grid;
+        margin: 0 auto;
+    }
+    
+    main{
+        display: grid;
+        margin-top: 40px;
+        padding: 0px 2rem;
+        grid-template-columns: 30% 40%;
+        gap: 2em;
+    }
+
+    /* GitHub */
+    .img-github{
+        margin: 0;
+        margin-left: 25px;
+    }
+
+    /* Perfil */
+    .foto-perfil{
+        width: 100px;
+        height: 100px;
+    }
+
+    .details-perfil{
+        font-size: 12px;
+    }
+
+    .infs-Perfil{
+        font-size: 14px;
+    }
+
+    /* Lista de Linguagens e Tipos */
+    .div-list{
+        flex-direction: column;
+    }
+
+    .select-btn.open .arrow-dwn{
+        transform: rotate(-180deg);
+    }
+
+    /* Repositories */
+    .search{
+        width: 270px;
+    }
+
+    .div-repository{
+        gap: 1em;
+    }
+}
+
+/* Tablet */
+@media(max-width:700px){
+    /* Page */
+    body{
+        display: grid;
+        margin: 0 auto;
+    }
+    
+    header{
+        display: none;
+    }
+
+    main{
+        display: block;
+    }
+
+    .details-perfil{
+        font-size: 12px;
+    }
+
+    .infs-Perfil {
+        font-size: 14px;
+        margin-bottom: 25px;
+        padding-left: 50%;
+    }
+
+    /* Repositories */
+    .search{
+        width: 270px;
+    }
+
+    .div-repository{
+        gap: 1em;
+    }
+}

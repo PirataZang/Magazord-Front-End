@@ -1,0 +1,32 @@
+/* Estilização do Corpo do Site */
+body{
+    display: grid;
+    margin: auto;
+    font-family: Roboto, sans-serif;
+}
+/* Styles Links */
+a{
+    text-decoration: none;
+    color: var(--Link);
+}
+/* Styles das Listas */
+ul,li{
+    list-style-type: none;
+}
+
+/* Perfil */
+main{
+    display: grid;
+    margin-top: 40px;
+    padding: 0px 18rem;
+    grid-template-columns: 350px 80em;
+    gap: 4em;
+}
+
+/* Aside Perfil */
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}

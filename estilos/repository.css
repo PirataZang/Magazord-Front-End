@@ -1,0 +1,55 @@
+
+/* nav de Repositories e Starred */
+.nav-Repositories{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 57px;
+}
+
+.div-repository{
+    height: 2.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 3.5625rem;
+}
+
+/* Botão Repositories */
+.repositories{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background:transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    gap: 10px;
+    font-size: 18px;
+    color: var(--gray);
+    cursor: pointer;
+    transition: all 100ms ease-in 0.1s;
+}
+
+.repositories[data-style="active"]{
+    border-bottom: 2px solid var(--Button);
+    color: var(--black);
+}
+
+
+/* Estilziação do Span */
+.repositories span{
+    border: 1px solid var(--gray);
+    padding: 2px 12px;
+    color: var(--text-gray);
+    font-size: 1rem;
+    background-color: var(--ligth-gray);
+    border-radius: 25px;
+}
+
+
+
+
+
+
+

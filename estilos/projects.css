@@ -1,0 +1,46 @@
+/* Projetos Repositório*/
+.div-projects-repositories{
+    display: none;
+}
+
+/* Aplica o Css apenas para os Itens Ativos no Repositório */
+.div-projects-repositories[data-style="active"]{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+/* Projetos Starred*/
+.div-projects-starred{
+    display: none;
+}
+
+/* Aplica o Css apenas para os Itens Ativos no Starred */
+.div-projects-starred[data-style="active"]{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+/* Descrição do Projeto */
+.div-projects-p{
+    max-width: 40em;
+    text-align: justify;
+    color: var(--text-gray);
+    margin-top: -15px;
+    margin-bottom: -10px;
+}
+
+/* Estilos para Deixar os Itens com os Espaçamentos corretos e alinhados*/
+.div-projects-span{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.actions{
+    display: flex;
+    gap: 5px
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/3cf3494228.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/styles.css">
+    <title>Front-End</title>
+</head>
+<body>
+    <!-- cabeçalho Github -->
+    <header class="bg-github">
+        <div class="div-github">
+            <a href="https://github.com" target="_blank"><img class="img-github" src="img/gitHub.png" alt="gitHub"></a>
+            <span class="sep-github">/</span>
+            <a href="https://github.com/PirataZang" target="_blank"><p class="profile-github">profile</p></a>
+        </div>
+    </header>
+    <main>
+        <!-- Perfil -->
+        <aside>
+            <div class="div-perfil">
+                <img class="foto-perfil" src="img/perfil.jpeg" alt="Foto de Perfil">
+                <div class="text-center">
+                    <h2>Igor Fronza</h2></li>
+                    <p class="details-perfil">Front-end Developer | Web Designer | Teste de demais caracteres</p></li>
+                </div>
+            </div>
+            <nav class="infs-Perfil">
+                <div></div>
+                <a href="https://www.magazord.com.br" target="_blank"> <i class="fa-solid fa-city"></i> Magazord - plataforma</a>
+                <a href="https://www.google.com/maps/place/Rio+do+Sul,+SC/@-27.2057339,-49.788027,11z/data=!3m1!4b1!4m6!3m5!1s0x94dfb99bb4a9e4bb:0x3bd46c4e1410b1bb!8m2!3d-27.2163185!4d-49.6428769!16s%2Fg%2F11bxg0jn_y?entry=ttu" target="_blank"> <i class="fa-solid fa-location-dot"></i> Rio do Sul - SC</a>
+                <a href="#"> <i class="fa-solid fa-at"></i> IgorFronza20@gmail.com</a>
+                <a href="#"> <i class="fa-brands fa-instagram"></i>@IgorFronza_Official</a>
+            </nav>
+        </aside>
+        <!-- Repositories and Starred -->
+        <div>
+            <nav class="nav-Repositories">
+                <div class="div-repository">
+                    <button class="repositories" id="repositories" data-style="active"> <i class="fa-solid fa-book-bookmark"></i>Repositories <span>3</span></button>
+                    <button class="repositories" id="starred" data-style="normal"> <i class="fa-regular fa-star"></i> Starred <span>2</span></button>
+                </div>
+                <div class="div-search">
+                    <form>
+                        <input class="search" type="text" placeholder="Search Here" id="search">
+                        <div class="div-list">
+                            <div class="select-btn">
+                                <span class="btn-text">Filtro:</span>
+                                <span class="arrow-dwn">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+                            </div>
+                            <!-- Filtro de Linguagens -->
+                            <ul class="list-items">
+                                <label>Linguagens:</label>
+                                <li class="item">
+                                    <span class="item-text"><input type="checkbox">All</span>
+                                </li>
+                                <li class="item">
+                                    <span class="item-text"><input type="checkbox">PHP</span>
+                                </li>
+                                <li class="item">
+                                    <span class="item-text"><input type="checkbox">HTML</span>
+                                </li>
+                                <li class="item">
+                                    <span class="item-text"><input type="checkbox">Css</span>
+                                </li>
+                                <li class="item">
+                                    <span class="item-text"><input type="checkbox">JavaScript</span>
+                                </li>
+                            </ul>
+                            <!-- Filtro de Tipos -->
+                            <ul class="list-items">
+                                <label>Types: </label>
+                                <li class="item">
+                                    <span class="item-text"><input type="checkbox">All</span>
+                                </li>
+                                <li class="item">
+                                    <span class="item-text"><input type="checkbox">Source</span>
+                                </li>
+                                <li class="item">
+                                    <span class="item-text"><input type="checkbox">Forks</span>
+                                </li>
+                                <li class="item">
+                                    <span class="item-text"><input type="checkbox">Archived</span>
+                                </li>
+                                <li class="item">
+                                    <span class="item-text"><input type="checkbox">Mirror</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+            <div>
+                <!-- Projetos do Repositório -->
+                <div class="div-projects-repositories" data-style="active">
+                    <h3>Node / <a href="#">Release</a></h3>
+                    <p class="div-projects-p">Node.js foundation Release Working Group</p>
+                    <span class="div-projects-span">
+                        <p class="actions"> <i class="fa-solid fa-star"></i> 1576</p>
+                        <p class="actions"> <i class="fa-solid fa-code-branch"></i>725</p>
+                    </span>
+                </div>
+                <div class="div-projects-repositories" data-style="active">
+                    <h3>Front-End Magazord / <a href="#">Front-End</a></h3>
+                    <p class="div-projects-p">Desafio de Desenvolvimento de Layout no Front-End</p>
+                    <span class="div-projects-span">
+                        <p class="actions"> <i class="fa-solid fa-star"></i> 135</p>
+                        <p class="actions"> <i class="fa-solid fa-code-branch"></i>10</p>
+                    </span>
+                </div>
+                <div class="div-projects-repositories" data-style="active">
+                    <h3>Teste de caracteres / <a href="#">Front-End</a></h3>
+                    <p class="div-projects-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim sequi hic quasi sed itaque quia harum quaerat saepe eius veritatis nesciunt, repellat, maiores</p>
+                    <span class="div-projects-span">
+                        <p class="actions"> <i class="fa-solid fa-star"></i> 135</p>
+                        <p class="actions"> <i class="fa-solid fa-code-branch"></i>10</p>
+                    </span>
+                </div>
+
+                <!-- Projetos do Starred -->
+                <div class="div-projects-starred" data-style="normal">
+                    <h3>Para o Avaliador / <a href="#">Obrigado</a></h3>
+                    <p class="div-projects-p">Obrigado por essa experiencia de criação de Layout, espero muito ter atendido suas expectativas, mas já adiantando, gostei bastante do desafio!!!</p>
+                    <span class="div-projects-span">
+                        <p class="actions">C#</p>
+                        <p class="actions"> <i class="fa-solid fa-code-branch"></i>16</p>
+                    </span>
+                </div>
+                <div class="div-projects-starred" data-style="normal">
+                    <h3>Javascript / <a href="#">Projects</a></h3>
+                    <p class="div-projects-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. In iure sit pariatur laboriosam? Deserunt ut tenetur vitae laborum, debitis reprehenderit suscipit itaque sequi! Consequuntur, suscipit repudiandae beatae optio aperiam perspiciatis.</p>
+                    <span class="div-projects-span">
+                        <p class="actions">Javascript</p>
+                        <p class="actions"> <i class="fa-solid fa-code-branch"></i>185</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./comportamentos/Javascript.js"></script>
+</body>
+</html>

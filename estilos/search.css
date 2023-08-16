@@ -1,0 +1,20 @@
+/* Barra de Pesquisa */
+.search{
+    width: 445px;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: var(--text-gray);
+    border-bottom: 2px solid var(--gray);
+    outline: 0;
+    transition: all 0.3s;
+}
+
+.search:focus{
+    gap: 2rem;
+    margin: 10px 0px;
+    padding-left: 10px;
+    color: var(--black);
+    border-bottom: 2px solid var(--black);
+}
