@@ -9,4 +9,4 @@
 
 
 ## Mais Informações:
-        Todos os elementos foram criadas sem nenhuma framework, utilizando apenas os recursos básicos da Web (HTML, CSS e JavaScript). 
+Todos os elementos foram criadas sem nenhuma framework, utilizando apenas os recursos básicos da Web (HTML, CSS e JavaScript). 
